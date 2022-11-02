@@ -1,0 +1,1 @@
+C:\Kal Project\PhotoLib\PhotoLib.csproj;x64

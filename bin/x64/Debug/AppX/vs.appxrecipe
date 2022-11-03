@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>TH50</Machine>
-    <WindowsUser>elsie</WindowsUser>
+    <Machine>RAINBOWSKY</Machine>
+    <WindowsUser>aishu</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>7ae90804-cc18-4562-a0c4-3c930a8f4226</PackageIdentityName>
     <PackageIdentityPublisher>CN=elsie</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Kal Project\PhotoLib\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Kal Project\PhotoLib\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>F665CE7EC34C504CAC8E95010FAD0A9ECA85644F5985318265B208E3DF566E13</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>7DF907E81C4149B11B81683437D0D3A15CCD56542C51776294E6A5D8E4CF5052</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>7ae90804-cc18-4562-a0c4-3c930a8f4226_1.0.0.0_x64__4smcpqscqd5z6</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>7ae90804-cc18-4562-a0c4-3c930a8f4226_4smcpqscqd5z6!App</RegisteredUserModeAppID>
     <RegisteredPackageID>7ae90804-cc18-4562-a0c4-3c930a8f4226</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Kal Project\PhotoLib\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-02T00:01:46.617</Modified>
+      <Modified>2022-11-02T02:14:05.492</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\bin\x64\Debug\PhotoLib.exe">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\bin\x64\Debug\PhotoLib.exe">
       <PackagePath>entrypoint\PhotoLib.exe</PackagePath>
-      <Modified>2022-11-02T00:01:46.276</Modified>
+      <Modified>2022-11-02T02:14:03.916</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,103 +46,103 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-02T11:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\Assets\cover\album_1.jpg">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\Assets\cover\album_1.jpg">
       <PackagePath>Assets\cover\album_1.jpg</PackagePath>
-      <Modified>2022-11-01T22:38:52.813</Modified>
+      <Modified>2022-11-02T02:06:59.491</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\Assets\cover\album_2.jpg">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\Assets\cover\album_2.jpg">
       <PackagePath>Assets\cover\album_2.jpg</PackagePath>
-      <Modified>2022-11-01T22:40:18.268</Modified>
+      <Modified>2022-11-02T02:06:59.492</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\Assets\cover\album_3.jpg">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\Assets\cover\album_3.jpg">
       <PackagePath>Assets\cover\album_3.jpg</PackagePath>
-      <Modified>2022-11-01T22:41:49.103</Modified>
+      <Modified>2022-11-02T02:06:59.492</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\Assets\Photos\Album_1\kitten_1.jpg">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\Assets\Photos\Album_1\kitten_1.jpg">
       <PackagePath>Assets\Photos\Album_1\kitten_1.jpg</PackagePath>
-      <Modified>2022-11-01T22:38:52.813</Modified>
+      <Modified>2022-11-02T02:06:59.483</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\Assets\Photos\Album_1\kitten_2.jpg">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\Assets\Photos\Album_1\kitten_2.jpg">
       <PackagePath>Assets\Photos\Album_1\kitten_2.jpg</PackagePath>
-      <Modified>2022-11-01T22:39:13.752</Modified>
+      <Modified>2022-11-02T02:06:59.484</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\Assets\Photos\Album_2\puppy_1.jpg">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\Assets\Photos\Album_2\puppy_1.jpg">
       <PackagePath>Assets\Photos\Album_2\puppy_1.jpg</PackagePath>
-      <Modified>2022-11-01T22:40:18.268</Modified>
+      <Modified>2022-11-02T02:06:59.485</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\Assets\Photos\Album_2\puppy_2.jpg">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\Assets\Photos\Album_2\puppy_2.jpg">
       <PackagePath>Assets\Photos\Album_2\puppy_2.jpg</PackagePath>
-      <Modified>2022-11-01T22:40:45.219</Modified>
+      <Modified>2022-11-02T02:06:59.486</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\Assets\Photos\Album_3\bunny_1.jpg">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\Assets\Photos\Album_3\bunny_1.jpg">
       <PackagePath>Assets\Photos\Album_3\bunny_1.jpg</PackagePath>
-      <Modified>2022-11-01T22:41:49.103</Modified>
+      <Modified>2022-11-02T02:06:59.487</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\Assets\Photos\Album_3\bunny_2.jpg">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\Assets\Photos\Album_3\bunny_2.jpg">
       <PackagePath>Assets\Photos\Album_3\bunny_2.jpg</PackagePath>
-      <Modified>2022-11-01T22:42:26.949</Modified>
+      <Modified>2022-11-02T02:06:59.487</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2022-10-31T23:09:18.275</Modified>
+      <Modified>2022-11-02T02:06:59.496</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2022-10-29T03:31:10.340</Modified>
+      <Modified>2022-11-02T02:06:59.482</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-10-29T03:31:10.341</Modified>
+      <Modified>2022-11-02T02:06:59.488</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-10-29T03:31:10.342</Modified>
+      <Modified>2022-11-02T02:06:59.488</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-10-29T03:31:10.342</Modified>
+      <Modified>2022-11-02T02:06:59.489</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-10-29T03:31:10.343</Modified>
+      <Modified>2022-11-02T02:06:59.489</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-10-29T03:31:10.343</Modified>
+      <Modified>2022-11-02T02:06:59.489</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-10-29T03:31:10.343</Modified>
+      <Modified>2022-11-02T02:06:59.490</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\bin\x64\Debug\PhotoLib.xr.xml">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\bin\x64\Debug\PhotoLib.xr.xml">
       <PackagePath>PhotoLib.xr.xml</PackagePath>
-      <Modified>2022-11-01T23:41:14.326</Modified>
+      <Modified>2022-11-02T02:06:59.635</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-11-02T00:01:46.224</Modified>
+      <Modified>2022-11-02T02:14:03.786</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-11-02T00:01:46.224</Modified>
+      <Modified>2022-11-02T02:14:03.787</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2020-12-02T09:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-11-01T23:55:25.715</Modified>
+      <Modified>2022-11-02T02:14:04.377</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Kal Project\PhotoLib\bin\x64\Debug\Core\PhotoLib.exe">
+    <AppxPackagedFile Include="C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\bin\x64\Debug\Core\PhotoLib.exe">
       <PackagePath>PhotoLib.exe</PackagePath>
-      <Modified>2022-11-02T00:01:46.614</Modified>
+      <Modified>2022-11-02T02:14:05.457</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

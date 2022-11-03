@@ -1,1 +1,1 @@
-C:\Kal Project\PhotoLib\PhotoLib.csproj;x64
+C:\Users\aishu\OneDrive\Desktop\team4 project\Kal_Project1_Team4\PhotoLib\PhotoLib.csproj;x64

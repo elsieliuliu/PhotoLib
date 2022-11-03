@@ -35,6 +35,7 @@ namespace PhotoLib.Model
             photos.Add(new Photo("bunny_2", PhotoAlbum.Album_3));
 
             return photos;
+
         }
     }
 }

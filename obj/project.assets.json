@@ -10255,18 +10255,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\elsie\\.nuget\\packages\\": {},
+    "C:\\Users\\aishu\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Kal Project\\PhotoLib\\PhotoLib.csproj",
+      "projectUniqueName": "C:\\Users\\aishu\\OneDrive\\Desktop\\team4 project\\Kal_Project1_Team4\\PhotoLib\\PhotoLib.csproj",
       "projectName": "PhotoLib",
-      "projectPath": "C:\\Kal Project\\PhotoLib\\PhotoLib.csproj",
-      "packagesPath": "C:\\Users\\elsie\\.nuget\\packages\\",
-      "outputPath": "C:\\Kal Project\\PhotoLib\\obj\\",
+      "projectPath": "C:\\Users\\aishu\\OneDrive\\Desktop\\team4 project\\Kal_Project1_Team4\\PhotoLib\\PhotoLib.csproj",
+      "packagesPath": "C:\\Users\\aishu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aishu\\OneDrive\\Desktop\\team4 project\\Kal_Project1_Team4\\PhotoLib\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -10274,7 +10274,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\elsie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aishu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

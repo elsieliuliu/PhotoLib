@@ -1,3 +1,4 @@
+WinMetadata\Windows.winmd
 Assets\cover\album_1.jpg
 Assets\cover\album_2.jpg
 Assets\cover\album_3.jpg
@@ -18,4 +19,3 @@ App.xbf
 MainPage.xbf
 PhotoLib.xr.xml
 Properties\Default.rd.xml
-WinMetadata\Windows.winmd

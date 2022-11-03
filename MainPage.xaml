@@ -82,7 +82,7 @@
                     <GridView Grid.Row="1"  Name="PhotoGridView"
                               IsItemClickEnabled="True"
                               ItemsSource="{x:Bind photos}"
-                              ItemClick="PhotoGridView_ItemClick_1">
+                              ItemClick="PhotoGridView_ItemClick">
                         <GridView.ItemTemplate>
                             <DataTemplate x:DataType="data:Photo">
                                 <Image Height="100" Width="150" Source="{x:Bind ImageFile}" />
@@ -91,7 +91,20 @@
                         </GridView.ItemTemplate>
                         
                     </GridView>
-                    
+                    <GridView Grid.Row="1"  Name="OnePhotoGridView"
+                              IsItemClickEnabled="True"
+                              ItemsSource="{x:Bind photos2}"
+                              ItemClick="OnePhotoGridView_ItemClick"
+                              Visibility="Collapsed">
+                        <GridView.ItemTemplate>
+                            <DataTemplate x:DataType="data:Photo">
+                                <Image Height="400" Width="650" Source="{x:Bind ImageFile}" />
+
+                            </DataTemplate>
+                        </GridView.ItemTemplate>
+
+                    </GridView>
+
 
                 </Grid>
             </SplitView.Content>

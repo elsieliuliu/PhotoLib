@@ -16,14 +16,14 @@
         </Grid.RowDefinitions>
 
         <RelativePanel Grid.Row="0">
-            <Button x:ConnectionId='15' Name="HamburgerButton"
+            <Button x:ConnectionId='16' Name="HamburgerButton"
                                                  
                     FontFamily="Segoe MDL2 Assets"
                     Content="&#xE700;"
                     Height="45"
                     Width="45"
                     />
-            <Button x:ConnectionId='16' Name="AddButton"
+            <Button x:ConnectionId='17' Name="AddButton"
                                            
                     RelativePanel.RightOf="HamburgerButton"
                     FontFamily="Segoe MDL2 Assets"
@@ -31,7 +31,7 @@
                     Height="45"
                     Width="45"
                     />
-            <Button x:ConnectionId='17' Name="BackButton"
+            <Button x:ConnectionId='18' Name="BackButton"
                                             
                     RelativePanel.RightOf="HamburgerButton"
                     FontFamily="Segoe MDL2 Assets"
@@ -85,7 +85,7 @@
                                                                  >
                         <GridView.ItemTemplate>
                             <DataTemplate                        >
-                                <Image x:ConnectionId='14' Height="100" Width="150"                             />
+                                <Image x:ConnectionId='15' Height="100" Width="150"                             />
 
                             </DataTemplate>
                         </GridView.ItemTemplate>
@@ -95,18 +95,27 @@
                               IsItemClickEnabled="True"
                                                             
                                                                     
-                              Visibility="Collapsed">
+                              Visibility="Collapsed"
+                              Margin="150,50,50,50">
                         <GridView.ItemTemplate>
                             <DataTemplate                        >
-                                <Image x:ConnectionId='12' Height="400" Width="650"                             />
+                                <Image x:ConnectionId='13' Height="700" Width="800"                             />
 
                             </DataTemplate>
                         </GridView.ItemTemplate>
 
                     </GridView>
+                    <TextBlock x:ConnectionId='11' Visibility="Collapsed"
+                        Grid.Row="3" Margin="470,756,0,0"
+                               Name="PhotoTextBlock"
+                               Text="All Photos" 
+                               FontSize="24"/>
+
+
 
 
                 </Grid>
+                
             </SplitView.Content>
             
             

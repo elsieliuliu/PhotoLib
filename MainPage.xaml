@@ -95,18 +95,27 @@
                               IsItemClickEnabled="True"
                               ItemsSource="{x:Bind photos2}"
                               ItemClick="OnePhotoGridView_ItemClick"
-                              Visibility="Collapsed">
+                              Visibility="Collapsed"
+                              Margin="150,50,50,50">
                         <GridView.ItemTemplate>
                             <DataTemplate x:DataType="data:Photo">
-                                <Image Height="400" Width="650" Source="{x:Bind ImageFile}" />
+                                <Image Height="700" Width="800" Source="{x:Bind ImageFile}" />
 
                             </DataTemplate>
                         </GridView.ItemTemplate>
 
                     </GridView>
+                    <TextBlock Visibility="Collapsed"
+                        Grid.Row="3" Margin="470,756,0,0"
+                               Name="PhotoTextBlock"
+                               Text="All Photos" 
+                               FontSize="24"/>
+
+
 
 
                 </Grid>
+                
             </SplitView.Content>
             
             

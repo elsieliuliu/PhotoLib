@@ -74,6 +74,7 @@
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
                     <TextBlock x:ConnectionId='8' Grid.Row="0"
                                Name="AlbumTextBlock"
@@ -91,7 +92,7 @@
                         </GridView.ItemTemplate>
                         
                     </GridView>
-                    <GridView x:ConnectionId='10' Grid.Row="1"  Name="OnePhotoGridView"
+                    <GridView x:ConnectionId='10' Grid.Row="2"  Name="OnePhotoGridView"
                               IsItemClickEnabled="True"
                                                             
                                                                     

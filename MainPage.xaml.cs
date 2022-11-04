@@ -76,6 +76,8 @@ namespace PhotoLib
             BackButton.Visibility = Visibility.Collapsed;
             MenuItemListView.SelectedItem = null;
             AddButton.Visibility = Visibility.Visible;
+            OnePhotoGridView.Visibility = Visibility.Collapsed;
+            PhotoGridView.Visibility = Visibility.Visible;
         }
 
         private void PhotoGridView_ItemClick(object sender, ItemClickEventArgs e)
@@ -85,6 +87,7 @@ namespace PhotoLib
             PhotoManager.GetOnePhotoByClick(photos2, photo.Name);
             OnePhotoGridView.Visibility = Visibility.Visible;
             AddButton.Visibility = Visibility.Collapsed;
+            
         }
 
         private void MenuItemListView_ItemClick(object sender, ItemClickEventArgs e)
@@ -100,6 +103,7 @@ namespace PhotoLib
         {
             PhotoGridView.Visibility = Visibility.Visible;
             OnePhotoGridView.Visibility = Visibility.Collapsed;
+            
 
 
         }

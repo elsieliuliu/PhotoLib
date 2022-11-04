@@ -77,6 +77,7 @@ namespace PhotoLib
             MenuItemListView.SelectedItem = null;
             AddButton.Visibility = Visibility.Visible;
             OnePhotoGridView.Visibility = Visibility.Collapsed;
+            PhotoTextBlock.Visibility = Visibility.Collapsed;
             PhotoGridView.Visibility = Visibility.Visible;
         }
 

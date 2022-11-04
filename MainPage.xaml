@@ -108,7 +108,7 @@
                     <TextBlock Visibility="Collapsed"
                         Grid.Row="3" Margin="470,756,0,0"
                                Name="PhotoTextBlock"
-                               Text="All Photos" 
+                               Text="placeholder" 
                                FontSize="24"/>
 
 

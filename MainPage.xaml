@@ -74,6 +74,7 @@
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
                     <TextBlock Grid.Row="0"
                                Name="AlbumTextBlock"
@@ -82,7 +83,7 @@
                     <GridView Grid.Row="1"  Name="PhotoGridView"
                               IsItemClickEnabled="True"
                               ItemsSource="{x:Bind photos}"
-                              ItemClick="PhotoGridView_ItemClick_1">
+                              ItemClick="PhotoGridView_ItemClick">
                         <GridView.ItemTemplate>
                             <DataTemplate x:DataType="data:Photo">
                                 <Image Height="100" Width="150" Source="{x:Bind ImageFile}" />
@@ -91,9 +92,31 @@
                         </GridView.ItemTemplate>
                         
                     </GridView>
-                    
+                    <GridView Grid.Row="2"  Name="OnePhotoGridView"
+                              IsItemClickEnabled="True"
+                              ItemsSource="{x:Bind photos2}"
+                              ItemClick="OnePhotoGridView_ItemClick"
+                              Visibility="Collapsed"
+                              Margin="150,50,50,50">
+                        <GridView.ItemTemplate>
+                            <DataTemplate x:DataType="data:Photo">
+                                <Image Height="700" Width="800" Source="{x:Bind ImageFile}" />
+
+                            </DataTemplate>
+                        </GridView.ItemTemplate>
+
+                    </GridView>
+                    <TextBlock Visibility="Collapsed"
+                        Grid.Row="3" Margin="470,756,0,0"
+                               Name="PhotoTextBlock"
+                               Text="placeholder" 
+                               FontSize="24"/>
+
+
+
 
                 </Grid>
+                
             </SplitView.Content>
             
             

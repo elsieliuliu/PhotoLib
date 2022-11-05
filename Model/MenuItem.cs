@@ -13,4 +13,10 @@ namespace PhotoLib.Model
         public string CoverFile { get; set; }
         public PhotoAlbum Album { get; set; }
     }
+
+   
 }
+
+
+
+

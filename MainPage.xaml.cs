@@ -25,12 +25,16 @@ namespace PhotoLib
     public sealed partial class MainPage : Page
     {
         private ObservableCollection<Photo> photos;
+        private ObservableCollection<Photo> photos2;
         private ObservableCollection<MenuItem> menuItems; //needs it to be able to change
         public MainPage() //constructor, mainpage.xaml is a blueprint of the UI
         {
             this.InitializeComponent();
             photos = new ObservableCollection<Photo>();
             PhotoManager.GetAllPhotos(photos);
+
+            photos2 = new ObservableCollection<Photo>();
+            PhotoManager.GetAllPhotos(photos2);
 
             menuItems = new ObservableCollection<MenuItem>();
             menuItems.Add(new MenuItem
@@ -72,11 +76,21 @@ namespace PhotoLib
             BackButton.Visibility = Visibility.Collapsed;
             MenuItemListView.SelectedItem = null;
             AddButton.Visibility = Visibility.Visible;
+            OnePhotoGridView.Visibility = Visibility.Collapsed;
+            PhotoTextBlock.Visibility = Visibility.Collapsed;
+            PhotoGridView.Visibility = Visibility.Visible;
         }
 
-        private void PhotoGridView_ItemClick_1(object sender, ItemClickEventArgs e)
+        private void PhotoGridView_ItemClick(object sender, ItemClickEventArgs e)
         {
-
+             PhotoGridView.Visibility = Visibility.Collapsed;
+            var photo = (Photo)e.ClickedItem;
+            PhotoManager.GetOnePhotoByClick(photos2, photo.Name);
+            OnePhotoGridView.Visibility = Visibility.Visible;
+            AddButton.Visibility = Visibility.Collapsed;
+            PhotoTextBlock.Visibility = Visibility.Visible;
+            PhotoTextBlock.Text = photo.Name.ToString();
+            AlbumTextBlock.Visibility = Visibility.Collapsed;
         }
 
         private void MenuItemListView_ItemClick(object sender, ItemClickEventArgs e)
@@ -86,6 +100,16 @@ namespace PhotoLib
             PhotoManager.GetAllPhotosByAlbum(photos, menuItem.Album);
             BackButton.Visibility = Visibility.Visible;
             AddButton.Visibility = Visibility.Collapsed;
+        }
+
+        private void OnePhotoGridView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            PhotoGridView.Visibility = Visibility.Visible;
+            OnePhotoGridView.Visibility = Visibility.Collapsed;
+            PhotoTextBlock.Visibility= Visibility.Collapsed;
+            AlbumTextBlock.Visibility = Visibility.Visible;
+            
+
         }
     }
 }

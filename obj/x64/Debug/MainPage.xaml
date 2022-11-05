@@ -16,14 +16,14 @@
         </Grid.RowDefinitions>
 
         <RelativePanel Grid.Row="0">
-            <Button x:ConnectionId='12' Name="HamburgerButton"
+            <Button x:ConnectionId='16' Name="HamburgerButton"
                                                  
                     FontFamily="Segoe MDL2 Assets"
                     Content="&#xE700;"
                     Height="45"
                     Width="45"
                     />
-            <Button x:ConnectionId='13' Name="AddButton"
+            <Button x:ConnectionId='17' Name="AddButton"
                                            
                     RelativePanel.RightOf="HamburgerButton"
                     FontFamily="Segoe MDL2 Assets"
@@ -31,7 +31,7 @@
                     Height="45"
                     Width="45"
                     />
-            <Button x:ConnectionId='14' Name="BackButton"
+            <Button x:ConnectionId='18' Name="BackButton"
                                             
                     RelativePanel.RightOf="HamburgerButton"
                     FontFamily="Segoe MDL2 Assets"
@@ -74,6 +74,7 @@
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
                     <TextBlock x:ConnectionId='8' Grid.Row="0"
                                Name="AlbumTextBlock"
@@ -82,18 +83,40 @@
                     <GridView x:ConnectionId='9' Grid.Row="1"  Name="PhotoGridView"
                               IsItemClickEnabled="True"
                                                            
-                                                                   >
+                                                                 >
                         <GridView.ItemTemplate>
                             <DataTemplate                        >
-                                <Image x:ConnectionId='11' Height="100" Width="150"                             />
+                                <Image x:ConnectionId='15' Height="100" Width="150"                             />
 
                             </DataTemplate>
                         </GridView.ItemTemplate>
                         
                     </GridView>
-                    
+                    <GridView x:ConnectionId='10' Grid.Row="2"  Name="OnePhotoGridView"
+                              IsItemClickEnabled="True"
+                                                            
+                                                                    
+                              Visibility="Collapsed"
+                              Margin="150,50,50,50">
+                        <GridView.ItemTemplate>
+                            <DataTemplate                        >
+                                <Image x:ConnectionId='13' Height="700" Width="800"                             />
+
+                            </DataTemplate>
+                        </GridView.ItemTemplate>
+
+                    </GridView>
+                    <TextBlock x:ConnectionId='11' Visibility="Collapsed"
+                        Grid.Row="3" Margin="470,756,0,0"
+                               Name="PhotoTextBlock"
+                               Text="placeholder" 
+                               FontSize="24"/>
+
+
+
 
                 </Grid>
+                
             </SplitView.Content>
             
             

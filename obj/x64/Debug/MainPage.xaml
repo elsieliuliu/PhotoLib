@@ -23,15 +23,8 @@
                     Height="45"
                     Width="45"
                     />
-            <Button x:ConnectionId='17' Name="AddButton"
-                                           
-                    RelativePanel.RightOf="HamburgerButton"
-                    FontFamily="Segoe MDL2 Assets"
-                    Content="&#xE710;"
-                    Height="45"
-                    Width="45"
-                    />
-            <Button x:ConnectionId='18' Name="BackButton"
+            
+            <Button x:ConnectionId='17' Name="BackButton"
                                             
                     RelativePanel.RightOf="HamburgerButton"
                     FontFamily="Segoe MDL2 Assets"

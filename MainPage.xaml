@@ -23,14 +23,7 @@
                     Height="45"
                     Width="45"
                     />
-            <Button Name="AddButton"
-                    Click="AddButton_Click"
-                    RelativePanel.RightOf="HamburgerButton"
-                    FontFamily="Segoe MDL2 Assets"
-                    Content="&#xE710;"
-                    Height="45"
-                    Width="45"
-                    />
+            
             <Button Name="BackButton"
                     Click="BackButton_Click"
                     RelativePanel.RightOf="HamburgerButton"

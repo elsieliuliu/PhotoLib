@@ -75,7 +75,7 @@ namespace PhotoLib
             AlbumTextBlock.Text = "All Photos";
             BackButton.Visibility = Visibility.Collapsed;
             MenuItemListView.SelectedItem = null;
-            AddButton.Visibility = Visibility.Visible;
+           
             OnePhotoGridView.Visibility = Visibility.Collapsed;
             PhotoTextBlock.Visibility = Visibility.Collapsed;
             PhotoGridView.Visibility = Visibility.Visible;
@@ -87,7 +87,7 @@ namespace PhotoLib
             var photo = (Photo)e.ClickedItem;
             PhotoManager.GetOnePhotoByClick(photos2, photo.Name);
             OnePhotoGridView.Visibility = Visibility.Visible;
-            AddButton.Visibility = Visibility.Collapsed;
+            
             PhotoTextBlock.Visibility = Visibility.Visible;
             PhotoTextBlock.Text = photo.Name.ToString();
             AlbumTextBlock.Visibility = Visibility.Collapsed;
@@ -99,7 +99,7 @@ namespace PhotoLib
             AlbumTextBlock.Text = menuItem.Album.ToString();
             PhotoManager.GetAllPhotosByAlbum(photos, menuItem.Album);
             BackButton.Visibility = Visibility.Visible;
-            AddButton.Visibility = Visibility.Collapsed;
+            
         }
 
         private void OnePhotoGridView_ItemClick(object sender, ItemClickEventArgs e)

@@ -22,6 +22,7 @@
                     Content="&#xE700;"
                     Height="45"
                     Width="45"
+                    Background="Beige"
                     />
             <Button Name="AddButton"
                     Click="AddButton_Click"
@@ -38,6 +39,7 @@
                     Content="&#xE76B;"
                     Height="45"
                     Width="45"
+                    Background="Aqua"
                     />
 
         </RelativePanel>
@@ -101,7 +103,7 @@
                         <GridView.ItemTemplate>
                             <DataTemplate x:DataType="data:Photo">
                                 <Image Height="700" Width="800" Source="{x:Bind ImageFile}" />
-
+                               
                             </DataTemplate>
                         </GridView.ItemTemplate>
 

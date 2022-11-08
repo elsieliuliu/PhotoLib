@@ -105,7 +105,7 @@ namespace PhotoLib
         private void OnePhotoGridView_ItemClick(object sender, ItemClickEventArgs e)
         {
             PhotoGridView.Visibility = Visibility.Visible;
-            OnePhotoGridView.Visibility = Visibility.Collapsed;
+            OnePhotoGridView.Visibility = Visibility.Visible;
             PhotoTextBlock.Visibility= Visibility.Collapsed;
             AlbumTextBlock.Visibility = Visibility.Visible;
             

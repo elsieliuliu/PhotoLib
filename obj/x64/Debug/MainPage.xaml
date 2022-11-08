@@ -22,6 +22,7 @@
                     Content="&#xE700;"
                     Height="45"
                     Width="45"
+                    Background="Beige"
                     />
             <Button x:ConnectionId='17' Name="AddButton"
                                            
@@ -38,6 +39,7 @@
                     Content="&#xE76B;"
                     Height="45"
                     Width="45"
+                    Background="Aqua"
                     />
 
         </RelativePanel>
@@ -101,7 +103,7 @@
                         <GridView.ItemTemplate>
                             <DataTemplate                        >
                                 <Image x:ConnectionId='13' Height="700" Width="800"                             />
-
+                               
                             </DataTemplate>
                         </GridView.ItemTemplate>
 

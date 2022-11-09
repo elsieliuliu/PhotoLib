@@ -83,14 +83,14 @@ namespace PhotoLib
 
         private void PhotoGridView_ItemClick(object sender, ItemClickEventArgs e)
         {
-             PhotoGridView.Visibility = Visibility.Collapsed;
+             //PhotoGridView.Visibility = Visibility.Collapsed;
             var photo = (Photo)e.ClickedItem;
             PhotoManager.GetOnePhotoByClick(photos2, photo.Name);
             OnePhotoGridView.Visibility = Visibility.Visible;
             
             PhotoTextBlock.Visibility = Visibility.Visible;
             PhotoTextBlock.Text = photo.Name.ToString();
-            AlbumTextBlock.Visibility = Visibility.Collapsed;
+            //AlbumTextBlock.Visibility = Visibility.Collapsed;
         }
 
         private void MenuItemListView_ItemClick(object sender, ItemClickEventArgs e)
@@ -104,7 +104,7 @@ namespace PhotoLib
 
         private void OnePhotoGridView_ItemClick(object sender, ItemClickEventArgs e)
         {
-            PhotoGridView.Visibility = Visibility.Visible;
+            //PhotoGridView.Visibility = Visibility.Visible;
             OnePhotoGridView.Visibility = Visibility.Collapsed;
             PhotoTextBlock.Visibility= Visibility.Collapsed;
             AlbumTextBlock.Visibility = Visibility.Visible;

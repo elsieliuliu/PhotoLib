@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Kal Project\PhotoLib\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-08T01:45:56.356</Modified>
+      <Modified>2022-11-09T02:54:25.318</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Kal Project\PhotoLib\bin\x64\Debug\PhotoLib.exe">
       <PackagePath>entrypoint\PhotoLib.exe</PackagePath>
-      <Modified>2022-11-08T01:45:55.295</Modified>
+      <Modified>2022-11-09T02:54:24.992</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -122,15 +122,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Kal Project\PhotoLib\bin\x64\Debug\PhotoLib.xr.xml">
       <PackagePath>PhotoLib.xr.xml</PackagePath>
-      <Modified>2022-11-05T00:23:27.503</Modified>
+      <Modified>2022-11-09T02:42:22.698</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Kal Project\PhotoLib\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-11-08T01:45:55.129</Modified>
+      <Modified>2022-11-09T02:54:24.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Kal Project\PhotoLib\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-11-08T01:45:55.130</Modified>
+      <Modified>2022-11-09T02:54:24.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -138,11 +138,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Kal Project\PhotoLib\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-11-03T01:55:09.492</Modified>
+      <Modified>2022-11-09T02:43:24.739</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Kal Project\PhotoLib\bin\x64\Debug\Core\PhotoLib.exe">
       <PackagePath>PhotoLib.exe</PackagePath>
-      <Modified>2022-11-08T01:45:56.341</Modified>
+      <Modified>2022-11-09T02:54:25.315</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -21,7 +21,8 @@
                     FontFamily="Segoe MDL2 Assets"
                     Content="&#xE700;"
                     Height="45"
-                    Width="45"/>
+                    Width="45"
+                    />
 
             
             
@@ -32,6 +33,7 @@
                     Content="&#xE76B;"
                     Height="45"
                     Width="45"
+                    
                     />
 
         </RelativePanel>

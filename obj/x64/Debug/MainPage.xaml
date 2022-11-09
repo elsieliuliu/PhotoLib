@@ -23,6 +23,8 @@
                     Height="45"
                     Width="45"
                     />
+
+            
             
             <Button x:ConnectionId='17' Name="BackButton"
                                             
@@ -31,6 +33,7 @@
                     Content="&#xE76B;"
                     Height="45"
                     Width="45"
+                    
                     />
 
         </RelativePanel>

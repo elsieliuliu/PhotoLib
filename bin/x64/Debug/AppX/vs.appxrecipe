@@ -30,13 +30,21 @@
     <AppXManifest Include="C:\Users\krist\OneDrive\Desktop\PhotoLib\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+<<<<<<< HEAD
       <Modified>2022-11-09T02:57:07.565</Modified>
+=======
+      <Modified>2022-11-09T03:02:57.576</Modified>
+>>>>>>> ad3ba03b9b8c34dd53217e9451604da88339a48b
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\krist\OneDrive\Desktop\PhotoLib\bin\x64\Debug\PhotoLib.exe">
       <PackagePath>entrypoint\PhotoLib.exe</PackagePath>
+<<<<<<< HEAD
       <Modified>2022-11-09T02:57:07.010</Modified>
+=======
+      <Modified>2022-11-09T03:02:57.200</Modified>
+>>>>>>> ad3ba03b9b8c34dd53217e9451604da88339a48b
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -122,15 +130,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\krist\OneDrive\Desktop\PhotoLib\bin\x64\Debug\PhotoLib.xr.xml">
       <PackagePath>PhotoLib.xr.xml</PackagePath>
+<<<<<<< HEAD
       <Modified>2022-11-05T00:28:26.358</Modified>
+=======
+      <Modified>2022-11-09T03:02:57.137</Modified>
+>>>>>>> ad3ba03b9b8c34dd53217e9451604da88339a48b
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\krist\OneDrive\Desktop\PhotoLib\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
+<<<<<<< HEAD
       <Modified>2022-11-09T02:57:06.878</Modified>
+=======
+      <Modified>2022-11-09T03:02:57.141</Modified>
+>>>>>>> ad3ba03b9b8c34dd53217e9451604da88339a48b
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\krist\OneDrive\Desktop\PhotoLib\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+<<<<<<< HEAD
       <Modified>2022-11-09T02:57:06.878</Modified>
+=======
+      <Modified>2022-11-09T03:02:57.141</Modified>
+>>>>>>> ad3ba03b9b8c34dd53217e9451604da88339a48b
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -138,11 +158,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\krist\OneDrive\Desktop\PhotoLib\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
+<<<<<<< HEAD
       <Modified>2022-11-05T00:31:20.046</Modified>
+=======
+      <Modified>2022-11-09T02:59:41.419</Modified>
+>>>>>>> ad3ba03b9b8c34dd53217e9451604da88339a48b
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\krist\OneDrive\Desktop\PhotoLib\bin\x64\Debug\Core\PhotoLib.exe">
       <PackagePath>PhotoLib.exe</PackagePath>
+<<<<<<< HEAD
       <Modified>2022-11-09T02:57:07.556</Modified>
+=======
+      <Modified>2022-11-09T03:02:57.574</Modified>
+>>>>>>> ad3ba03b9b8c34dd53217e9451604da88339a48b
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

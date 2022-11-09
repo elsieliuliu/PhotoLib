@@ -23,14 +23,9 @@
                     Height="45"
                     Width="45"
                     />
-            <Button Name="AddButton"
-                    Click="AddButton_Click"
-                    RelativePanel.RightOf="HamburgerButton"
-                    FontFamily="Segoe MDL2 Assets"
-                    Content="&#xE710;"
-                    Height="45"
-                    Width="45"
-                    />
+
+            
+            
             <Button Name="BackButton"
                     Click="BackButton_Click"
                     RelativePanel.RightOf="HamburgerButton"
@@ -38,6 +33,7 @@
                     Content="&#xE76B;"
                     Height="45"
                     Width="45"
+                    
                     />
 
         </RelativePanel>
@@ -75,6 +71,7 @@
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
                     <TextBlock Grid.Row="0"
                                Name="AlbumTextBlock"
@@ -97,17 +94,17 @@
                               ItemsSource="{x:Bind photos2}"
                               ItemClick="OnePhotoGridView_ItemClick"
                               Visibility="Collapsed"
-                              Margin="150,50,50,50">
+                              Margin="150,30,50,50">
                         <GridView.ItemTemplate>
                             <DataTemplate x:DataType="data:Photo">
-                                <Image Height="700" Width="800" Source="{x:Bind ImageFile}" />
+                                <Image Height="500" Width="800" Source="{x:Bind ImageFile}" />
 
                             </DataTemplate>
                         </GridView.ItemTemplate>
 
                     </GridView>
                     <TextBlock Visibility="Collapsed"
-                        Grid.Row="3" Margin="470,756,0,0"
+                        Grid.Row="3" Margin="500,0,400,0"
                                Name="PhotoTextBlock"
                                Text="placeholder" 
                                FontSize="24"/>

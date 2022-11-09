@@ -23,21 +23,17 @@
                     Height="45"
                     Width="45"
                     />
-            <Button x:ConnectionId='17' Name="AddButton"
-                                           
-                    RelativePanel.RightOf="HamburgerButton"
-                    FontFamily="Segoe MDL2 Assets"
-                    Content="&#xE710;"
-                    Height="45"
-                    Width="45"
-                    />
-            <Button x:ConnectionId='18' Name="BackButton"
+
+            
+            
+            <Button x:ConnectionId='17' Name="BackButton"
                                             
                     RelativePanel.RightOf="HamburgerButton"
                     FontFamily="Segoe MDL2 Assets"
                     Content="&#xE76B;"
                     Height="45"
                     Width="45"
+                    
                     />
 
         </RelativePanel>
@@ -75,6 +71,7 @@
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
                     <TextBlock x:ConnectionId='8' Grid.Row="0"
                                Name="AlbumTextBlock"
@@ -97,17 +94,17 @@
                                                             
                                                                     
                               Visibility="Collapsed"
-                              Margin="150,50,50,50">
+                              Margin="150,30,50,50">
                         <GridView.ItemTemplate>
                             <DataTemplate                        >
-                                <Image x:ConnectionId='13' Height="700" Width="800"                             />
+                                <Image x:ConnectionId='13' Height="500" Width="800"                             />
 
                             </DataTemplate>
                         </GridView.ItemTemplate>
 
                     </GridView>
                     <TextBlock x:ConnectionId='11' Visibility="Collapsed"
-                        Grid.Row="3" Margin="470,756,0,0"
+                        Grid.Row="3" Margin="500,0,400,0"
                                Name="PhotoTextBlock"
                                Text="placeholder" 
                                FontSize="24"/>
